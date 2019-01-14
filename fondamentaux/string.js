@@ -11,7 +11,7 @@ console.log(monObjectif.indexOf('i')) // Donne l'index d'un caractère dans une 
 console.log(monObjectif.substring(5)) // Affiche la string à partir de l'index donné. Le 5 correspond à la lettre i.
 console.log(monObjectif.substring(4, 12)) // Affiche la string à partir de l'index donné en premier argument et la lettre correspondant à l'argument 2 moins 1. Soit le 11ème caractère de la string, la lettre f
 console.log("Je m'appèle ".concat(prenom) + (". ").concat(monObjectif).concat("!")) // La concaténation se fait avec .concat(). Elle peut remplacer le +, mais pas de symbole + après une variable cela causera une erreur.
-console.log(monObjectif.replace(1, "t")) // Replace n'a pas fonctionné chez moi ?????
+console.log(monObjectif.replace('u', "t")) // Replace n'a pas fonctionné chez moi ?????
 console.log("vue,React,Angular".split(","))
 
 console.log("---------------------------")
